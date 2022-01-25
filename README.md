@@ -1,3 +1,5 @@
+`https://www.youtube.com/watch?v=7cfHF7yAoJE`
+
 # Prepare environment
 
 1. Create new HTML Page
@@ -7,16 +9,32 @@
 
 # Create Diagram, Model and Model Data
 
-1. Store go.GraphObject.make in simple variable (such as $)
-2. Define myDiagram as a new Diagram
+### 1. Store go.GraphObject.make in simple variable (such as $)
+
+### 2. Define myDiagram as a new Diagram
 
 - First argument: go.Diagram
 - Second argument: ID of the DIV element our diagram should be associated with
 
-3. Set Diagram height, width, and border
-4. Create nodeDataArray and linkDataArray (each element is an object in JSON format)
+### 3. Set Diagram height, width, and border
+
+### 4. Create nodeDataArray and linkDataArray (each element is an object in JSON format)
 
 - nodeDataArray-> Only contains a string value for the "key" property (unique property that acts as an identifier for each Node in GoJS)
 - linkDataArray-> We'll have a single element, with two properties: "to" and "from" (keys of the nodes this link connects)
 
-5. Set Diagram.model
+### 5. Set Diagram.model
+
+# Create Node Template
+
+### 1. Define node templates as a single "Auto" Panel
+
+### 2. Define node template elements (Shape and TextBlock)
+
+### 3. Add color data property to nodes in nodeDataArray
+
+### 4. Add node data bindings
+
+# Create Link Template
+
+### Define link template with two Shape elements
