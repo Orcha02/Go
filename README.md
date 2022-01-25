@@ -1,7 +1,7 @@
 # Prepare environment
 
 1. Create new HTML Page
-2. Add script reference to your go.js file or `https://unpkg.com/gojs`
+2. Add script reference to your go.js file
 3. Add DIV element for diagram
 4. Define body onload function
 

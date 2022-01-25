@@ -1,7 +1,8 @@
 function init() {
   var $ = go.GraphObject.make;
-  myDiagram = $(go.Diagram, "myDiagramDIV");
+  var myDiagram = $(go.Diagram, "myDiagramDiv");
   var nodeDataArray = [{ key: "Alpha" }, { key: "Beta" }];
-  var linkedDataArray = [{ to: "Beta", from: "Alpha" }];
-  myDiagram.model = new go.GraphLinksModel(nodeDataArray, linkedDataArray);
+  var linkDataArray = [{ to: "Beta", from: "Alpha" }];
+
+  myDiagram.model = new go.GraphLinksModel(nodeDataArray, linkDataArray);
 }
