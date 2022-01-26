@@ -1,5 +1,3 @@
-`https://www.youtube.com/watch?v=7cfHF7yAoJE`
-
 # Prepare environment
 
 1. Create new HTML Page
@@ -46,3 +44,15 @@
 ### 1. Set margin propert on nodeTemplate's Shape element
 
 ### 2. Set strokeWidth property linkTemplate's first Shape element
+
+- ! Organizing Nodes and Links together is made easy with Groups
+- Groups will treat a collection of Nodes and Links as though they were a single Node
+- We can create a group by adding a new element in the noddeDataArray
+
+# Create a group
+
+### 1. Add Group data to nodeDataArray
+
+### 2. Add new nodes in nodeDataArray and ser "group" property
+
+### 3. Add link to Group in linkDataArray

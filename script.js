@@ -4,8 +4,14 @@ function init() {
   var nodeDataArray = [
     { key: "Alpha", color: "lime" },
     { key: "Beta", color: "cyan" },
+    { key: "Zeta", isGroup: true },
+    { key: "Delta", color: "pink", group: "Zeta" },
+    { key: "Gamma", color: "maroon", group: "Zeta" },
   ];
-  var linkDataArray = [{ to: "Beta", from: "Alpha", color: "red" }];
+  var linkDataArray = [
+    { to: "Beta", from: "Alpha", color: "red" },
+    { from: "Alpha", to: "Zeta" }, // link will point to the group not specific member
+  ];
 
   myDiagram.model = new go.GraphLinksModel(nodeDataArray, linkDataArray);
   myDiagram.nodeTemplate = $(
