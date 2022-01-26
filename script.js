@@ -21,7 +21,7 @@ function init() {
   );
   myDiagram.linkTemplate = $(
     go.Link,
-    $(go.Shape, { strokeWidth: 3 }, new goBind("stroke", "color")),
+    $(go.Shape, { strokeWidth: 3 }, new go.Binding("stroke", "color")),
     $(
       go.Shape,
       { toArrow: "Standard", stroke: null },

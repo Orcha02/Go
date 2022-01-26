@@ -37,4 +37,12 @@
 
 # Create Link Template
 
-### Define link template with two Shape elements
+### 1. Define link template with two Shape elements
+
+### 2. Add link data bindings
+
+# Edit Node / Link Properties
+
+### 1. Set margin propert on nodeTemplate's Shape element
+
+### 2. Set strokeWidth property linkTemplate's first Shape element
