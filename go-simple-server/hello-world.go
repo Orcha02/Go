@@ -6,10 +6,10 @@ import (
 )
 
 func main()  {
-
+/* Routes */
   http.HandleFunc("/", homeHandler)
   http.HandleFunc("/contact", contactHandler)
-
+/* Start the server*/
   http.ListenAndServe(":3000", nil)
 }
 
